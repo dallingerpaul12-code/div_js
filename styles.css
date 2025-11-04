@@ -1,0 +1,23 @@
+:root {
+    --bkgnd: #f0f0f0;
+    --txt: #101010;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+canvas {
+    background: var(--bkgnd);
+    display: block;
+    margin: 0 auto;
+}
+
+#pageTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--txt);
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Segoe UI", "Roboto", "Arial", sans-serif;
+}
